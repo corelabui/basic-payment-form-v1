@@ -17,7 +17,8 @@ const MyForm = () => {
         placeholder="Enter your credit card number"
         required
         classes={{
-          field: 'form__input-field',
+          root: 'form__input',
+        field: 'form__input-field',
           error: 'form__input-field__error',
           label: 'form__input-field__label',
         }}
@@ -30,6 +31,7 @@ const MyForm = () => {
         placeholder="Enter your ccv number"
         required
         classes={{
+          root: 'form__input',
           field: 'form__input-field',
           error: 'form__input-field__error',
           label: 'form__input-field__label',
@@ -42,6 +44,7 @@ const MyForm = () => {
         label="Expiry date"
         required
         classes={{
+          root: 'form__input',
           field: 'form__input-field',
           error: 'form__input-field__error',
           label: 'form__input-field__label',

@@ -16,6 +16,12 @@
   cursor: pointer;
 }
 
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+}
+
 .form__input-field {
   padding: 10px;
   border-radius: 3px;
